@@ -18,9 +18,9 @@ $(function() {
 $(function(){
     $(window).scroll(function(){
         if($(this).scrollTop() > 800) {
-            $(".sp-menu").css("display","none");
+            $(".sp-menu").css("visibility","hidden");
         } else {
-            $(".sp-menu").css("display","flex");
+            $(".sp-menu").css("visibility","visible");
         }
     });
 });
